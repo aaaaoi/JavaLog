@@ -9,7 +9,8 @@ import android.util.Log;
 class Human extends Animal implements Thinkable {
     //クラス変数
     static String to_jp = "人間";
-    static String hobby;
+
+    String hobby;
 
     //コンストラクタ
     public Human (String name, int age, String hobby) {
